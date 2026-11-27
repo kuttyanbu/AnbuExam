@@ -2,6 +2,8 @@
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AnbuExam-Admin</title><link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2b50d8">
 </head><body>
 <main class="page"><section class="card wide" id="library">
   <div class="brand">AnbuExam admin</div>
@@ -76,4 +78,5 @@
   </form>
 </details></section></main>
 <script src="config.js"></script><script src="script.js"></script><script src="admin.js"></script><script src="library.js"></script>
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js');</script>
 </body></html>
